@@ -1,0 +1,55 @@
+{
+  "name": "dash-button-trigger",
+  "version": "1.0.0",
+  "description": "Dash button trigger project",
+  "main": "index.js",
+  "scripts": {
+    "start": "sudo node index.js",
+    "findbutton": "sudo node node_modules/node-dash-button/bin/findbutton",
+    "test": "echo 'No tests'",
+    "dependency-update": "yarn upgrade -E && yarn upgrade-interactive -E",
+    "precommit": "lint-staged",
+    "cz": "git-cz",
+    "commitmsg": "commitlint -e"
+  },
+  "lint-staged": {
+    "{**/,}*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "homepage": "TODO",
+  "bugs": {
+    "url": "TODO"
+  },
+  "dependencies": {
+    "node-dash-button": "0.6.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "5.0.1",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "4.11.0",
+    "husky": "0.14.3",
+    "lint-staged": "5.0.0",
+    "npm-check": "5.5.2"
+  },
+  "author": {
+    "name": "Benedikt Stemmildt",
+    "email": "benedikt@stemmildt.com",
+    "url": "https://github.com/benestem"
+  },
+  "license": "Apache-2.0",
+  "bin": {
+    "marathon-dash": "index.js"
+  }
+}
