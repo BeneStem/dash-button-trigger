@@ -2,7 +2,7 @@
 
 > "By giving people the power to share, we're making the world more transparent." - Mark Zuckerberg
 
-Dash button trigger project.
+Dash button trigger
 
 ## Setup
 

@@ -1,7 +1,7 @@
 {
   "name": "dash-button-trigger",
   "version": "1.0.0",
-  "description": "Dash button trigger project",
+  "description": "Dash button trigger",
   "main": "index.js",
   "scripts": {
     "start": "sudo node index.js",
